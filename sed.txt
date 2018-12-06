@@ -1,0 +1,5 @@
+sed.txt
+Created Thu Dec  6 10:57:30 AST 2018
+by Raymond E. Marcil <ray.marcil@alaska.gov>
+
+sed (stream editor)
