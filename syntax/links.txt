@@ -1,0 +1,12 @@
+links.txt
+Created Thu Dec  6 12:10:17 AST 2018
+by Raymond E. Marcil <ray.marcil@alaska.gov>
+
+sed (stream editor) syntax related links
+
+
+Links
+=====
+pass line to function - overwrite using sed line by line - BASH
+Some very good examples here
+https://stackoverflow.com/questions/43036595/pass-line-to-function-overwrite-using-sed-line-by-line-bash
