@@ -3,7 +3,7 @@ Created Thu Dec  6 10:59:37 AST 2018
 by Raymond E. Marcil <marcilr@gmail.com>
 
 
-sed related links
+sed (stream editor) related links
 
 
 Links
