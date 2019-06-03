@@ -8,3 +8,6 @@ sed (stream editor) related links
 
 Links
 =====
+sed or awk delete after last slash
+https://www.linuxquestions.org/questions/linux-newbie-8/sed-or-awk-delete-after-last-slash-749560/
+
