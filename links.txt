@@ -8,6 +8,8 @@ sed (stream editor) related links
 
 Links
 =====
+How to use variables in sed command
+https://unix.stackexchange.com/questions/177167/how-to-use-variables-in-sed-command
+
 sed or awk delete after last slash
 https://www.linuxquestions.org/questions/linux-newbie-8/sed-or-awk-delete-after-last-slash-749560/
-
