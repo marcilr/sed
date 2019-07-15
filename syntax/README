@@ -8,3 +8,7 @@ Filelist
 modify-found-lines.txt
   Use sed to modify found lines. 
   i.e. Update lines found by grep
+
+remove-whitespace.txt
+  To remove whitespace from string:
+    sed 's/.*\s\+//'
