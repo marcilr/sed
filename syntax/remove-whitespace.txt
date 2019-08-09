@@ -1,0 +1,31 @@
+remove-whitespace.txt
+Created Mon Jul 15 10:45:15 AKDT 2019
+Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+To remove whitespace from string:
+  sed 's/.*\s\+//'
+
+
+Examples
+========
+$ find . -exec ls -ld $PWD/{} \; | grep -i ucc | sed 's/.*\s\+//'
+/net/dnr-atwfs1/vol/vol1/ftp/private/./dnrbpu/UCCDIR
+/net/dnr-atwfs1/vol/vol1/ftp/private/./dnrbpu/DBCUCC
+/net/dnr-atwfs1/vol/vol1/ftp/private/./dnbcorp/DBCUCC_10202011.dat
+...
+/net/dnr-atwfs1/vol/vol1/ftp/private/./recftp/USERSTATUCC
+$
+
+
+$ ssh intprod
+$ su
+$ su recoff
+$ cd /net/dnr-atwfs1/vol/vol1/ftp/private
+$ find . -exec ls -ld $PWD/{} \; | grep -i ucc | sed 's/.*\s\+//'
+/net/dnr-atwfs1/vol/vol1/ftp/private/./dnrbpu/UCCDIR
+/net/dnr-atwfs1/vol/vol1/ftp/private/./dnrbpu/DBCUCC
+/net/dnr-atwfs1/vol/vol1/ftp/private/./dnbcorp/DBCUCC_10202011.dat
+...
+/net/dnr-atwfs1/vol/vol1/ftp/private/./recftp/USERSTATUCC
+$
