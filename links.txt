@@ -11,5 +11,9 @@ Links
 How to use variables in sed command
 https://unix.stackexchange.com/questions/177167/how-to-use-variables-in-sed-command
 
+sed edit file in place
+sed -i 's/hello/bonjour' hello.txt
+https://stackoverflow.com/questions/12696125/sed-edit-file-in-place
+
 sed or awk delete after last slash
 https://www.linuxquestions.org/questions/linux-newbie-8/sed-or-awk-delete-after-last-slash-749560/
