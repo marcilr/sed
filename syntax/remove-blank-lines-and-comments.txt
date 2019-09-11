@@ -1,0 +1,29 @@
+remove-blank-lines-and-comments.txt
+Created Wed Sep 11 08:25:05 AKDT 2019
+Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Remove blank lines and comments:
+
+
+Use: cat <file> | sed '/^$/d' | sed '/#.*/d'
+
+
+Example
+=======
+# cat /etc/awstats/awstats.dnr_internet.conf | sed '/^$/d' | sed '/#.*/d'
+LogFile="/bin/zcat /net/dnr-atwfs1/vol/vol1/weblogs/__YYYY__/__MM__/__DD__/nginx/access_log.gz |"
+LogType=W
+LogFormat=4
+LogSeparator=" "
+SiteDomain="dnr.alaska.gov"
+HostAliases="www.dnr.alaska.gov www.dnr.state.ak.us localhost 127.0.0.1"
+DNSLookup=2
+DirData="/net/dnr-atwfs1/vol/vol1/weblogs/reports/data"
+DirCgi="/awstats"
+...
+#
+
+
+Think this is my most efficent syntax yet on this from.
+
