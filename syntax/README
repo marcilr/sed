@@ -5,9 +5,16 @@ by Raymond E. Marcil <marcilr@gmail.com>
 
 Filelist
 ========
+links.txt
+  sed syntax related links
+
 modify-found-lines.txt
   Use sed to modify found lines. 
   i.e. Update lines found by grep
+
+remove-blank-lines-and-comments.txt
+  Remove blank lines and comments:
+  Use: cat <file> | sed '/^$/d' | sed '/#.*/d'
 
 remove-whitespace.txt
   To remove whitespace from string:
